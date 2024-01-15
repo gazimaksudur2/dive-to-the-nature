@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
     <title>Dive-to-the-Nature</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
     <header class="header">
         <nav>
             <div class="web-title">
                 <div class="agency-icon">
-                    <img src="Images/Group 40071 (2).png" alt="">
+                    <img src="images/Group_42.png" alt="">
                 </div>
                 <h2>Let's <span style="color: #FF5400;"">Travel</span></h2>
             </div>
@@ -34,65 +35,98 @@
         <!-- banner starts here -->
         <section class="banner">
             <h2 class="banner-title">Explore Your Travel</h2>
-            <p class="primary-description">Discover the world with Classic Journeys, where every trip is a masterpiece. Embark on a seamless exploration of the world's wonders with Classic Journeys.</p>
+            <p class="banner-description">Discover the world with Classic Journeys, where every trip is a masterpiece. Embark on a seamless exploration of the world's wonders with Classic Journeys.</p>
             <div class="selection">
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
+                <input type="text" name="" id="" placeholder="Where go">
+                <div class="input-grp">
+                    <div class="input">
+                        <input class="icon-inp" type="text" name="" id="" placeholder="When">
+                    </div>
+                    <div class="icon-1">
+                        <img src="images/down_arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="input-grp">
+                    <div class="input">
+                        <input class="icon-inp" type="text" name="" id="" placeholder="Select Type">
+                    </div>
+                    <div class="icon-2">
+                        <img src="images/down_arrow.svg" alt="">
+                    </div>
+                </div>
                 <button class="btn-primary find">
                     <div class="search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <img src="images/magnify_glass.svg" alt="">
                     </div>
-                    <div class="find-now">Find Now</div>
+                    <div class="find-now"> Find More</div>
                 </button>
             </div>
         </section>
         <!-- banner ends here -->
 
         <!-- popular tour section starts here -->
-        <section class="popular-tour">
+        <section class="section-style section-flex">
             <div class="popular-text">
-                <h2 class="general-title">
-                    Our Popular Tours
-                </h2>
-                <p class="primary-description"></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <h2 class="general-title">Our Popular Tours</h2>
+                <p class="primary-description">The popularity of tours can vary depending on the interests and preferences of our target audience. Here are some popular tour ideas across different categories</p>
+                <ul class="popular-ul">
+                    <li>Provide a unique experience with a safari in countries like Kenya, Tanzania, or South Africa to witness the incredible wildlife.</li>
+                    <li> Organize treks to popular destinations like Everest Base Camp or Annapurna Circuit in Nepal.</li>
+                    <li>Offer tours to historical sites such as Machu Picchu in Peru, Petra in Jordan, or the Pyramids of Egypt.</li>
                 </ul>
-                <p class="primary-description"></p>
+                <p class="primary-description">Remember to consider the preferences and demographics of your target audience when planning and promoting these tours. Additionally, staying updated on travel trends and incorporating sustainable and responsible travel practices can enhance the appeal of your offerings.</p>
                 <button class="btn-primary">Read More</button>                
             </div>
             <div class="popular-img">
-
+                <img src="images/Rectangle_4.png" alt="">
             </div>
         </section>
         <!-- popular tour section ends here -->
 
         <!-- destination section starts here -->
-        <section class="destination">
+        <section class="section-style destination">
             <div class="section-des">
                 <h2 class="general-title">Choose Your Destination</h2>
-                <p class="primary-description"></p>
+                <p class="primary-description">Here goes our packages of traveling spots over the world. You can select best one with your perfernces and interests.</p>
             </div>
             <div class="grid-img">
-                <div class="imgs-1">Maldives</div>
-                <div class="imgs-2">Indonesia</div>
-                <div class="imgs-3">Srilanka</div>
-                <div class="imgs-4">North America</div>
-                <div class="imgs-5">Kashmir</div>
-                <div class="imgs-6">Bangladesh</div>
-                <div class="imgs-7">Bandarban</div>
+                <div class="images-1">
+                    <img src="images/Rectangle_5.png" alt="">
+                    <h3 class="content">Maldives</h3>
+                </div>
+                <div class="images-2">
+                    <img src="images/Rectangle_8.png" alt="">
+                    <h3 class="content">Indonesia</h3>
+                </div>
+                <div class="images-3">
+                    <img src="images/Rectangle_6.png" alt="">
+                    <h3 class="content">Srilanka</h3>
+                </div>
+                <div class="images-4">
+                    <img src="images/Rectangle_7.png" alt="">
+                    <h3 class="content">North America</h3>
+                </div>
+                <div class="images-5">
+                    <img src="images/Rectangle_9.png" alt="">
+                    <h3 class="content">Kashmir</h3>
+                </div>
+                <div class="images-6">
+                    <img src="images/Rectangle_10.png" alt="">
+                    <h3 class="content">Bangladesh</h3>
+                </div>
+                <div class="images-7">
+                    <img src="images/Rectangle_11.png" alt="">
+                    <h3 class="content">Bandarban</h3>
+                </div>
             </div>
         </section>
         <!-- destination section ends here -->
 
         <!-- choose-us section starts here -->
-        <section class="choose-us">
+        <section class="section-style choose-us">
             <div class="section-des">
                 <h2 class="general-title">Why Choose Us</h2>
-                <p class="primary-description"></p>
+                <p class="primary-description">We have a great amount of customer reviews, experienced and expertise manpower and also we are commited to porvide best services as much as we can. </p>
             </div>
             <div class="choose-grid">
                 <div class="services-1">
@@ -115,7 +149,7 @@
         <!-- choose-us section ends here -->
 
         <!-- deals & discounts section starts here -->
-        <section class="deals">
+        <section class="section-style deals">
             <div class="section-des">
                 <h2 class="general-title">Deals & Discounts</h2>
                 <p class="primary-description"></p>
@@ -130,7 +164,7 @@
         <!-- deals & discounts section ends here -->
 
         <!-- simple section starts here -->
-        <section class="simple">
+        <section class="section-style section-flex">
             <div class="simple-text">
                 <h2 class="general-title">A Simple Perfect Place To Get Lost</h2>
                 <p class="primary-description"></p>
@@ -147,7 +181,7 @@
         <!-- simple section ends here -->
         
         <!-- newsletter section starts here  -->
-        <section class="newsletter">
+        <section class="section-style section-flex">
             <div class="news-text">
                 <h3 class="service-title">Newsletter</h3>
                 <p class="primary-description"></p>
@@ -164,7 +198,7 @@
     <footer class="footer">
         <div class="web-title">
             <div class="agency-icon">
-                <img src="Images/Group 40071 (2).png" alt="">
+                <img src="images/group_42.png" alt="">
             </div>
             <h2>Let's <span style="color: #FF5400;"">Travel</span></h2>
         </div>
