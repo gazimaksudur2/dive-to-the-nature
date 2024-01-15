@@ -330,3 +330,35 @@
   right: -2rem;
 }
 /* newsletter styles ends here  */
+
+/* footer style starts here  */
+.footer{
+  background: rgba(19, 19, 24, 0.05);
+  padding: 6.5rem 21rem;
+  text-align: center;
+  min-height: 30rem;
+}
+.web-title-foot{
+  color: #131318;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+.social-networks{
+  padding: .5rem;
+  margin-bottom: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.fa-brands{
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.primary-description{
+  text-align: center;
+}
+/* footer style ends here  */
