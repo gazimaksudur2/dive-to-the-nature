@@ -408,6 +408,18 @@
 }
 /* deals & discount section style ends here  */
 
+/* own create section style starts here  */
+.explore .primary-description{
+  text-align: center;
+  padding: 2rem 15rem;
+}
+.explore-images {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+/* own create section style ends here  */
+
 /* simple section styles starts here  */
 .simple-section {
   align-items: end;
@@ -450,31 +462,31 @@
 #volume {
   /* background-color: #ff5400;
   border: 2px solid salmon; */
-  right: 7rem;
+  right: 9rem;
   bottom: 2rem;
 }
 #pause {
   /* background-color: #00ff73;
   border: 2px solid salmon; */
-  right: 35rem;
+  right: 37rem;
   bottom: 2rem;
 }
 #maximize {
   /* background-color: #8ec60c;
   border: 2px solid salmon; */
-  right: 4.5rem;
+  right: 6rem;
   bottom: 2rem;
 }
 #dots {
   /* background-color: #eb1b8d;
   border: 2px solid salmon; */
-  right: 2rem;
+  right: 4rem;
   bottom: 2rem;
 }
 #running {
   /* background-color: #eb1b8d;
   border: 2px solid salmon; */
-  right: 31.3rem;
+  right: 33.3rem;
   bottom: 1.4rem;
 }
 
