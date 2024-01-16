@@ -178,10 +178,23 @@
   }
   /* deals & discount section style ends here  */
 
-  
-.explore .primary-description{
+  .explore .primary-description {
     text-align: center;
     padding: 1rem 2rem;
+  }
+  .explore-images {
+    margin: 1rem 2rem;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .exp-img {
+    max-width: 100%;
+    flex-basis: 24rem;
   }
 
   /* simple section styles starts here  */
@@ -253,18 +266,18 @@
     align-items: center;
     position: relative;
   }
-  .news-img img{
+  .news-img img {
     min-width: 100%;
   }
   .card {
     padding: 1rem 1.5rem;
     bottom: 1.8rem;
-    right: .2rem;
+    right: 0.2rem;
   }
   .card .line-1 {
     font-size: 1rem;
   }
-  .card .line-2{
+  .card .line-2 {
     font-size: 1.5rem;
   }
   /* newsletter styles ends here  */
