@@ -87,7 +87,7 @@
     height: 60%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .selection input[type="text"],
   .selection button {
@@ -111,6 +111,7 @@
     gap: 1rem;
   }
   .inp {
+    width: 80%;
     align-items: center;
     /* border: 5px solid black;
     outline: 3px solid salmon; */
@@ -118,14 +119,14 @@
   .icon-1 {
     /* background-color: #ff5400; */
     position: absolute;
-    top: 1.5rem;
-    right: 2rem;
+    top: 3.5rem;
+    right: 7rem;
   }
   .icon-2 {
     /* background-color: #1ee04f; */
     position: absolute;
-    top: 1.5rem;
-    right: 2rem;
+    top: 3.5rem;
+    right: 7rem;
   }
   /* banner style ends here  */
 
