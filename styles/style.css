@@ -63,7 +63,6 @@
 .web-title {
   color: #131318;
   width: 100%;
-  font-family: Mulish;
   display: flex;
   gap: 2%;
   justify-content: flex-start;
@@ -86,6 +85,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
+}
+.navigation-mobile{
+  visibility: hidden;
 }
 /* nav bar style ends here  */
 

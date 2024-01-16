@@ -1,10 +1,308 @@
-/* media query for medium size device starts here  */
-@media only screen and (max-width:991) {
-    
+/* media query for large size device starts here  */
+@media screen and (min-width: 992px) {
 }
+/* media query for large size device starts here  */
+/* media query for medium size device starts here  */
+
+/* @media only screen and (max-width: 991px) {
+} */
+
 /* media query for medium size device ends here  */
 /* media query for small size device starts here  */
-@media only screen and (max-width:600) {
-    
+@media only screen and (max-width: 600px) {
+  /* general style  */
+
+  .banner-description {
+    padding: 0.5rem 1.2rem 2rem;
+  }
+  .section-style {
+    /* border: 2px solid green; */
+    margin: 1rem 1.2rem;
+    padding: 1rem;
+  }
+  .section-flex {
+    flex-direction: column;
+    gap: 5%;
+  }
+  .general-title {
+    color: #131318;
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+  .primary-description {
+    margin: 1.5rem auto;
+    /* border: 2px solid pink; */
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 400;
+  }
+  .btn-primary {
+    padding: 1rem 2rem;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+    background: var(--lite-orange);
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  /* header style  */
+  .header nav {
+    display: flex;
+    padding: 1.2rem 2.5rem;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .web-title {
+    width: 70%;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation-mobile {
+    width: 30%;
+    visibility: visible;
+    /* border: 2px solid salmon; */
+  }
+
+  /* banner style  */
+  .banner {
+    height: 70vh;
+    margin: 0rem 1.5rem;
+  }
+  .banner-title {
+    padding-bottom: 1.5rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .selection {
+    /* padding: 1rem; */
+    padding-bottom: 2rem;
+    width: 80%;
+    height: 55%;
+    gap: 0;
+    flex-direction: column;
+  }
+  .selection input[type="text"],
+  .selection button {
+    width: 80%;
+    /* padding: 0; */
+  }
+  .selection button {
+    color: #fff;
+    background-color: var(--lite-orange);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .container {
+    margin-bottom: 0rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+  }
+  .inp {
+    align-items: center;
+    /* border: 5px solid black;
+    outline: 3px solid salmon; */
+  }
+  .icon-1 {
+    /* background-color: #ff5400; */
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+  }
+  .icon-2 {
+    /* background-color: #1ee04f; */
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+  }
+  /* banner style ends here  */
+
+  /* destination section starts here  */
+  .section-des {
+    padding: 1rem 5%;
+    text-align: center;
+  }
+  .grid-img {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .grid-img div,
+  .simple-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* destination section style ends here  */
+
+  /* deals & discount section style starts here  */
+  .deal-img-1 {
+    align-items: center;
+    justify-content: end;
+    height: 70vh;
+  }
+  .deal-img-2 {
+    align-items: center;
+    justify-content: end;
+    height: 70vh;
+  }
+  .deal-img-3 {
+    align-items: center;
+    justify-content: end;
+    height: 70vh;
+  }
+  .package-view {
+    margin: 1rem;
+    padding: 1.5rem;
+    /* margin-left: 1.5rem; */
+    min-width: 90%;
+  }
+  .package-view-2 {
+    margin: 1rem;
+    padding: 1.5rem;
+    min-width: 90%;
+  }
+  /* deals & discount section style ends here  */
+
+  /* simple section styles starts here  */
+  .simple-section {
+    max-width: 100%;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+  }
+  .simple-img img {
+    width: 100%;
+  }
+  .simple-img .content {
+    padding: 0rem 1rem;
+  }
+  .horizontal {
+    bottom: 7.4%;
+    width: 80%;
+  }
+  .icon-over-img {
+    font-size: 0.5rem;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+  }
+  #time-stamp {
+    bottom: 5rem;
+    right: 24rem;
+  }
+  #volume {
+    right: 9rem;
+    bottom: 5rem;
+  }
+  #pause {
+    right: 29rem;
+    bottom: 5rem;
+  }
+  #maximize {
+    font-size: 5px;
+    right: 6.5rem;
+    bottom: 5rem;
+  }
+  #dots {
+    font-size: 5px;
+    right: 4rem;
+    bottom: 5rem;
+  }
+  #running {
+    font-size: 5px;
+    right: 25rem;
+    bottom: 4rem;
+  }
+
+  /* simple section styles ends here  */
+
+  /* newsletter styles starts here  */
+  .section-flex {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .news-img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .news-img img{
+    min-width: 100%;
+  }
+  .card {
+    padding: 1rem 1.5rem;
+    bottom: 1.8rem;
+    right: .2rem;
+  }
+  .card .line-1 {
+    font-size: 1rem;
+  }
+  .card .line-2{
+    font-size: 1.5rem;
+  }
+  /* newsletter styles ends here  */
+
+  /* footer style starts here  */
+  .footer {
+    padding: 2rem 2.8rem;
+    text-align: center;
+    min-height: 15rem;
+  }
+  /* footer style ends here  */
 }
 /* media query for small size device ends here  */
+
+/* garbase goes below
+
+nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    transition: top 1s ease;
+    display: none;
+}
+nav .mainMenu .closeMenu{
+    display: block;
+    position: absolute;
+    top: 1.3rem;
+    right: 1.3rem;
+}
+nav .openMenu{
+    display: block;
+}
+nav .mainMenu li a:hover{
+    background: none;
+    color: bisque;
+    font-size: 1.5rem;
+}
+.icns i {
+    display: inline-block;
+    padding: 12px;
+} */
