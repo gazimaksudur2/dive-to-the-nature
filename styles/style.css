@@ -341,7 +341,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 1.5rem;
   height: 100vh;
   background-repeat: no-repeat;
@@ -377,6 +377,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+.package-view-2{
+  margin-left: 5%;
 }
 .package-info {
   display: flex;
