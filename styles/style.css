@@ -154,22 +154,31 @@
   gap: 0.6rem;
 }
 
-.icon-grp {
-  /* border: 2px solid rgb(16, 55, 27); */
+.container {
+  /* background-color: rgb(40, 229, 229); */
+  margin-bottom: 1.5rem;
+  max-height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
+.inp{
+  align-items: center;
+  /* border: 5px solid black;
+  outline: 3px solid salmon; */
+}
 .icon-1 {
+  /* background-color: #ff5400; */
   position: absolute;
-  top: 1.8rem;
-  right: 17rem;
+  top: 1.5rem;
+  right: 2rem;
 }
 .icon-2 {
+  /* background-color: #1ee04f; */
   position: absolute;
-  top: 1.7rem;
-  right: 33rem;
+  top: 1.5rem;
+  right: 2rem;
 }
 
 /* banner style ends here  */
@@ -326,8 +335,15 @@
 .card{
   position: absolute;
   transform: rotate(-30deg);
-  bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  bottom: 3.4rem;
   right: -2rem;
+}
+.card .line-1{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
 }
 /* newsletter styles ends here  */
 
@@ -340,7 +356,12 @@
 }
 .web-title-foot{
   color: #131318;
+  /* border: 2px solid aqua; */
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   width: 100%;
   font-size: 2.1rem;
   font-weight: 800;
@@ -358,7 +379,7 @@
   width: 1.5rem;
   height: 1.5rem;
 }
-.primary-description{
+footer .primary-description{
   text-align: center;
 }
 /* footer style ends here  */
