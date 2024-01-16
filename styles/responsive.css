@@ -72,7 +72,7 @@
 
   /* banner style  */
   .banner {
-    height: 70vh;
+    height: 90vh;
     margin: 0rem 1.5rem;
   }
   .banner-title {
@@ -82,17 +82,16 @@
     font-weight: 800;
   }
   .selection {
-    /* padding: 1rem; */
-    padding-bottom: 2rem;
+    padding: 2rem;
     width: 80%;
-    height: 55%;
-    gap: 0;
+    height: 60%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .selection input[type="text"],
   .selection button {
     width: 80%;
-    /* padding: 0; */
   }
   .selection button {
     color: #fff;
@@ -103,7 +102,8 @@
   }
   .container {
     margin-bottom: 0rem;
-    height: auto;
+    padding: 0rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
