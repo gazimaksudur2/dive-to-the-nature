@@ -413,10 +413,41 @@
   text-align: center;
   padding: 2rem 15rem;
 }
+.explore-images div img{
+  width: 100%;
+  object-fit: cover;
+}
 .explore-images {
+  margin: 2rem 10rem;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(12,1fr);
+  grid-template-columns: repeat(6,1fr);
   grid-template-rows: repeat(2,1fr);
+  gap: 2%;
+}
+.exp-img-1{
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+}
+.exp-img-2{
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+}
+.exp-img-3{
+  grid-column: 3/span 1;
+  grid-row: 1/span 1;
+}
+.exp-img-4{
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+}
+.exp-img-5{
+  grid-column: 2/span 1;
+  grid-row: 2/span 1;
+}
+.exp-img-6{
+  grid-column: 3/span 1;
+  grid-row: 2/span 1;
 }
 /* own create section style ends here  */
 
