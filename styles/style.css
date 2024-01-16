@@ -163,7 +163,7 @@
   align-items: center;
   position: relative;
 }
-.inp{
+.inp {
   align-items: center;
   /* border: 5px solid black;
   outline: 3px solid salmon; */
@@ -231,7 +231,8 @@
   position: absolute;
   z-index: 2;
 }
-.grid-img div {
+.grid-img div,
+.simple-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,8 +303,80 @@
 }
 /* choose us section style ends here  */
 
+/* simple section styles starts here  */
+.simple-section {
+  align-items: end;
+  gap: 5%;
+  position: relative;
+}
+.simp-title {
+  width: 80%;
+}
+.simple-list li {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.simple-img .content {
+  /* border: 5px solid salmon; */
+  padding: 0rem 8rem;
+}
+.horizontal {
+  position: absolute;
+  bottom: 5%;
+  width: 45%;
+  opacity: 0.5;
+  font-weight: 800;
+  border: 1px solid rgb(228, 213, 213);
+}
+.icon-over-img {
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+}
+#time-stamp {
+  color: #f3f3f3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: 2.1rem;
+  right: 24rem;
+}
+#volume {
+  /* background-color: #ff5400;
+  border: 2px solid salmon; */
+  right: 7rem;
+  bottom: 2rem;
+}
+#pause {
+  /* background-color: #00ff73;
+  border: 2px solid salmon; */
+  right: 35rem;
+  bottom: 2rem;
+}
+#maximize {
+  /* background-color: #8ec60c;
+  border: 2px solid salmon; */
+  right: 4.5rem;
+  bottom: 2rem;
+}
+#dots {
+  /* background-color: #eb1b8d;
+  border: 2px solid salmon; */
+  right: 2rem;
+  bottom: 2rem;
+}
+#running {
+  /* background-color: #eb1b8d;
+  border: 2px solid salmon; */
+  right: 31.3rem;
+  bottom: 1.4rem;
+}
+
+/* simple section styles ends here  */
+
 /* newsletter styles starts here  */
-.section-flex{
+.section-flex {
   gap: 2%;
 }
 .news-text {
@@ -311,7 +384,7 @@
   border-radius: 16px;
   border: 1px solid #ff5400;
 }
-.news-img{
+.news-img {
   width: 50%;
   height: 100%;
   position: relative;
@@ -326,13 +399,13 @@
   outline: none;
   border: none;
 }
-.inp-2{
+.inp-2 {
   margin-top: 1rem;
 }
-.subscribe{
+.subscribe {
   width: 90%;
 }
-.card{
+.card {
   position: absolute;
   transform: rotate(-30deg);
   font-size: 2rem;
@@ -340,7 +413,7 @@
   bottom: 3.4rem;
   right: -2rem;
 }
-.card .line-1{
+.card .line-1 {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 400;
@@ -348,13 +421,13 @@
 /* newsletter styles ends here  */
 
 /* footer style starts here  */
-.footer{
+.footer {
   background: rgba(19, 19, 24, 0.05);
   padding: 6.5rem 21rem;
   text-align: center;
   min-height: 30rem;
 }
-.web-title-foot{
+.web-title-foot {
   color: #131318;
   /* border: 2px solid aqua; */
   margin-bottom: 1rem;
@@ -366,20 +439,20 @@
   font-size: 2.1rem;
   font-weight: 800;
 }
-.social-networks{
-  padding: .5rem;
+.social-networks {
+  padding: 0.5rem;
   margin-bottom: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
 }
-.fa-brands{
+.fa-brands {
   font-size: 1.5rem;
   width: 1.5rem;
   height: 1.5rem;
 }
-footer .primary-description{
+footer .primary-description {
   text-align: center;
 }
 /* footer style ends here  */
