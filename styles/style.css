@@ -276,6 +276,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 .services {
   padding: 2rem;
@@ -409,23 +410,42 @@
 /* deals & discount section style ends here  */
 
 /* own create section style starts here  */
+.explore{
+  width: 100%;
+}
+.explore-images {
+  margin: 2rem 10rem;
+  /* border: 2px solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.exp-img{
+  flex-basis: 24rem;
+}
 .explore .primary-description{
   text-align: center;
   padding: 2rem 15rem;
 }
-.explore-images div img{
+.explore-images .exp-img img{
+  border-radius: .5rem .5rem 0 0;
+  margin: 0rem;
   width: 100%;
   object-fit: cover;
 }
-.explore-images {
-  margin: 2rem 10rem;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(2,1fr);
-  gap: 2%;
+.exp-img p{
+  margin-top: 0;
+  padding: 1rem;
+  border-radius: 0 0 .5rem .5rem;
+  text-align: center;
+  background-color: bisque;
+  font-size: 1rem;
+  font-weight: 400;
 }
-.exp-img-1{
+/* .exp-img-1{
   grid-column: 1/span 1;
   grid-row: 1/span 1;
 }
@@ -448,7 +468,7 @@
 .exp-img-6{
   grid-column: 3/span 1;
   grid-row: 2/span 1;
-}
+} */
 /* own create section style ends here  */
 
 /* simple section styles starts here  */
