@@ -303,6 +303,106 @@
 }
 /* choose us section style ends here  */
 
+/* deals & discount section style starts here  */
+.deals-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.deal-img-1 {
+  /* border: 3px solid greenyellow;
+  background-color: salmon; */
+  width: 100%;
+  background-image: url("../images/Group_39.png");
+  position: relative;
+  object-fit: cover;
+  /* padding: 7rem 13rem; */
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal-img-2 {
+  /* border: 3px solid greenyellow;
+  background-color: salmon; */
+  width: 100%;
+  background-image: url("../images/Group_40.png");
+  position: relative;
+  object-fit: cover;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal-img-3 {
+  background-image: url("../images/Group_39.png");
+  /* border: 3px solid greenyellow;
+  background-color: salmon; */
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.package-view {
+  padding: 3.2rem;
+  width: 50%;
+  margin-right: 5%;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.package-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.info {
+  display: flex;
+  gap: 0.5rem;
+}
+.package-pricing {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+.btn-see-all{
+  /* border: 2px solid blue; */
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* deals & discount section style ends here  */
+
 /* simple section styles starts here  */
 .simple-section {
   align-items: end;
